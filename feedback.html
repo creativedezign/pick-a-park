@@ -23,27 +23,32 @@
     <header class="bar bar-nav">
       <h1 class="title">Pick-A-Park</h1>
     </header>
-
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
     <div class="content">
       <div class="card">
       <div class="content-padded">
 
-          <h1>I want a park with:</h1>
-          <div><img src="img/download.jpeg" style="margin-right:10px;"><img src="img/download.jpeg" style="margin-right:10px;"><img src="img/download.jpeg"></div>
-          <div><img src="img/download.jpeg" style="margin-right:10px;"><img src="img/download.jpeg" style="margin-right:10px;"><img src="img/download.jpeg"></div>
-          <div><img src="img/download.jpeg" style="margin-right:10px;"><img src="img/download.jpeg" style="margin-right:10px;"><img src="img/download.jpeg"></div>
+          <h1>Feedback</h1>
+		  <form action="" method="get">
+         	<input name="Name" type="text" value="Name">
+            <input name="Contact" type="text" value="Contact">
+            <textarea name="Feedback" cols="10" rows="6"></textarea>
+            <input name="Send" type="button" value="Send">
+          </form>
         </div>
     
       </div>
     </div>
-	<div class="component-example component-example-fullbleed">
+
+
+
+<div class="component-example component-example-fullbleed">
         <nav class="bar bar-tab">
           <a class="tab-item active" href="index.html">
             <span class="icon icon-home"></span>
             <span class="tab-label">Home</span>
           </a>
-          <a class="tab-item" href="about.html">
+           <a class="tab-item" href="about.html">
             <span class="icon icon-star-filled"></span>
             <span class="tab-label">About</span>
           </a>
@@ -53,6 +58,5 @@
           </a>
         </nav>
       </div>
-
-  </body>
+</body>
 </html>

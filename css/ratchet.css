@@ -245,7 +245,7 @@ body {
   line-height: 21px;
   color: #000;
   background-color: #fff;
-  max-width:380px;
+  max-width:340px;
 }
 
 a {
@@ -532,7 +532,7 @@ input[type="button"] {
 .title {
   position: absolute;
   display: block;
-  width: 380px;
+  width: 340px;
   padding: 0;
   margin: 0 -10px;
   font-size: 17px;
@@ -550,7 +550,7 @@ input[type="button"] {
 .bar-tab {
   bottom: 0;
   display: table;
-  width: 380px;
+  width: 340px;
   height: 50px;
   padding: 0;
   table-layout: fixed;

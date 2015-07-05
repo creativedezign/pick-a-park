@@ -245,6 +245,7 @@ body {
   line-height: 21px;
   color: #000;
   background-color: #fff;
+  max-width:400px;
 }
 
 a {
@@ -275,7 +276,7 @@ a:active {
 }
 
 .bar-nav ~ .content {
-  padding-top: 44px;
+  padding-top: 100px;
 }
 
 .bar-header-secondary ~ .content {
@@ -325,7 +326,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, .h1 {
-  font-size: 36px;
+  font-size: 32px;
+  color:#54bdce;
+  padding-bottom:10px;
 }
 
 h2, .h2 {
@@ -493,7 +496,7 @@ input[type="button"] {
   padding-right: 10px;
   padding-left: 10px;
   background-color: white;
-  border-bottom: 1px solid #ddd;
+
 
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -529,7 +532,7 @@ input[type="button"] {
 .title {
   position: absolute;
   display: block;
-  width: 100%;
+  width: 400px;
   padding: 0;
   margin: 0 -10px;
   font-size: 17px;
@@ -547,11 +550,11 @@ input[type="button"] {
 .bar-tab {
   bottom: 0;
   display: table;
-  width: 100%;
+  width: 400px;
   height: 50px;
   padding: 0;
   table-layout: fixed;
-  border-top: 1px solid #ddd;
+
   border-bottom: 0;
 }
 .bar-tab .tab-item {
@@ -1259,7 +1262,6 @@ select {
   font-family: Ratchicons;
   font-style: normal;
   font-weight: normal;
-
   src: url("../fonts/ratchicons.eot");
   src: url("../fonts/ratchicons.eot?#iefix") format("embedded-opentype"), url("../fonts/ratchicons.woff") format("woff"), url("../fonts/ratchicons.ttf") format("truetype"), url("../fonts/ratchicons.svg#svgFontName") format("svg");
 }

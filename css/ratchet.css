@@ -1261,6 +1261,7 @@ select {
 @font-face {
   font-family: Ratchicons;
   font-style: normal;
+  color:#F00;
   font-weight: normal;
   src: url("../fonts/ratchicons.eot");
   src: url("../fonts/ratchicons.eot?#iefix") format("embedded-opentype"), url("../fonts/ratchicons.woff") format("woff"), url("../fonts/ratchicons.ttf") format("truetype"), url("../fonts/ratchicons.svg#svgFontName") format("svg");

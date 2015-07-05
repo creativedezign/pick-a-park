@@ -10,7 +10,7 @@ CREATE PROCEDURE [Parks].[Find parks]
 @Longitude DECIMAL(12,8),
 @Feature NVARCHAR(20)
 AS
-SELECT TOP 3
+SELECT TOP 5
        Parks.Name,
        Parks.Latitude,
        Parks.Longitude

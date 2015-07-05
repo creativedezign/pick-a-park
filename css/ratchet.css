@@ -1436,3 +1436,16 @@ select {
 .icon-left:before {
   content: '\e822';
 }
+
+.funfact{
+	padding:10px; 
+	background-color:#54bdce;}
+	
+.funfact h4{
+	color:#fff;}
+	
+.funfact p{
+	color:#fff;}
+	
+		
+	

@@ -566,7 +566,7 @@ input[type="button"] {
   vertical-align: middle;
 }
 .bar-tab .tab-item.active, .bar-tab .tab-item:active {
-  color: #428bca;
+  color: #F29269;
 }
 .bar-tab .tab-item .icon {
   top: 3px;
@@ -574,6 +574,7 @@ input[type="button"] {
   height: 24px;
   padding-top: 0;
   padding-bottom: 0;
+  color:#F29269;
 }
 .bar-tab .tab-item .icon ~ .tab-label {
   display: block;
